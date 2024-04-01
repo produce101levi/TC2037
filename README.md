@@ -2,7 +2,7 @@
 
 # Description
 
-**Chosen language:** #5
+**Chosen language:** Chakobsa #5
 
 **Words to recognize:**
 
@@ -61,3 +61,10 @@ the program will not run, as "gharrufo" is not a valid result of the regular exp
 # Tests
 The tests are shown in the tests.py file.
 
+
+# Analysis
+
+This automaton has a linear time complexity o(n)
+With n being the length of the input string.
+
+The time it takes to process a string is directly proportional to the length of the string
