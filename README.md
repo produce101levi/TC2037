@@ -25,7 +25,8 @@ In the movie, this language is spoken by Indigenous people known as Fremen. Chak
 
 **Automata**
 
-<img width="594" alt="Screenshot 2024-04-01 at 7 15 57 a m" src="https://github.com/produce101levi/TC2037/assets/117374505/d7f4245e-7eef-411b-a1c1-4d1bfafa0c33">
+![IMG_4505](https://github.com/produce101levi/TC2037/assets/117374505/7874a7ab-cdd6-425b-a249-d80ac025f032)
+
 
 **Regular Expression**
 
