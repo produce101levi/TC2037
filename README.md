@@ -113,4 +113,5 @@ Because the algorithm runs through the entire regular expression in a linear man
 # References
 
 GeeksForGeeks. (2024). _Regex Tutorial - How to write Regular Expressions?_. Retrieved from https://www.geeksforgeeks.org/write-regular-expressions/.
+
 GeeksForGeeks. (2023). _Introduction of Finite Automata_. Retrieved from https://www.geeksforgeeks.org/introduction-of-finite-automata/.
