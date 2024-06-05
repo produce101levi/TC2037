@@ -67,4 +67,7 @@ The tests are shown in the tests.py file.
 This automaton has a linear time complexity o(n)
 With n being the length of the input string.
 
-The time it takes to process a string is directly proportional to the length of the string
+The pattern in this case is g(ha(fla|nima)|a(lbana|rrufo)|uidichar). The test analyzes each part of the pattern in a linear manner (from left to right). It checks the regular expression to see if the words match it and if they don't, the test continues analyzing the pattern. If none of the elements in the regular expression match the words, the value is false.
+
+Because the algorithm runs through the entire regular expression in a linear manner, without backtracking, this is an algorithm that runs n times, therefore the time complexity is O(n).
+
