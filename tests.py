@@ -1,12 +1,15 @@
 import re
 
-
+# Give the program the regular expression for it to compile
 pattern = re.compile(r'g(ha(fla|nima)|a(lbana|rrufo)|uidichar)')
 
+
+# Define the function to match the input string with the pattern
 def match(st):
     return bool(pattern.fullmatch(st))
 
 
+# Define the function to test whether the input strings are accepted by the regular expression or not
 def test():
     sample = [
         ("ghafla", True),
@@ -24,4 +27,5 @@ def test():
         assert result == expected
     print("Passed: All tests have been passed correctly")
 
+# Run function test()
 test()
