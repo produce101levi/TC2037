@@ -1,3 +1,4 @@
+# Import the library re (regular expression)
 import re
 
 # Give the program the regular expression for it to compile
