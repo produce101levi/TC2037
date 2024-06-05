@@ -25,7 +25,8 @@ In the movie, this language is spoken by Indigenous people known as Fremen. Chak
 
 **Automata**
 
-![IMG_4505](https://github.com/produce101levi/TC2037/assets/117374505/7874a7ab-cdd6-425b-a249-d80ac025f032)
+<img width="608" alt="Screenshot 2024-06-05 at 4 50 06 p m" src="https://github.com/produce101levi/TC2037/assets/117374505/d71d56f7-899e-42ad-bf33-70063049aea0">
+
 
 
 **Regular Expression**
@@ -43,7 +44,8 @@ From ga, the words that can be formed are galbana or garrufo.
 
 Initially I had wanted to implement a solution that looked like this. 
 
-![IMG_4505](https://github.com/produce101levi/TC2037/assets/117374505/36115600-511e-4aae-8b69-438ee10d708e)
+![IMG_4505](https://github.com/produce101levi/TC2037/assets/117374505/be8d850e-8de0-48e4-81b7-4c8471bf5d8a)
+
 
 This automata was extremely complicated because the idea was to have only one state per letter in the words. The diagram is hard to read, and also hard to organize. The regular expression representing this automata would not have been as easy to understand and/or validate in the tests. 
 
