@@ -109,3 +109,8 @@ The pattern in this case is g(ha(fla|nima)|a(lbana|rrufo)|uidichar). The test an
 
 Because the algorithm runs through the entire regular expression in a linear manner, without backtracking, this is an algorithm that runs n times, therefore the time complexity is O(n).
 
+
+# References
+
+GeeksForGeeks. (2024). _Regex Tutorial - How to write Regular Expressions?_. Retrieved from https://www.geeksforgeeks.org/write-regular-expressions/.
+GeeksForGeeks. (2023). _Introduction of Finite Automata_. Retrieved from https://www.geeksforgeeks.org/introduction-of-finite-automata/.
