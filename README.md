@@ -40,6 +40,8 @@ From gha, the words that can be formed are ghafla or ghanima.
 
 From ga, the words that can be formed are galbana or garrufo.
 
+Since there are no symbols such as * or +, there's no risk of repeated letters being accepted by the regular expression, or of unnecessary letters being registered as mandatory for the words. All the words start with g, there's 2 words that start with "gha" and 2 that start with "ga".
+
 # Other Solutions and why this one is best
 
 Initially I had wanted to implement a solution that looked like this. 
