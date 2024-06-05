@@ -56,10 +56,12 @@ There are many states connecting to the same state, which can also make room for
 This is why I opted for a solution that's easier to understand, easier to test and easier to represent in a regular expression.
 
 As for the regular expression, I had thought of plenty other interpretations.
+
     ga*(lbana|rrufo|h?(alfa|anima))
     ga*(lbana|rrufo|h?(afla|anima)|uidichar))
     gh*(afla|anima|a?(lbana|rrufo)|uidichar))
     gh*(afla|anima|a+(lbana|rrufo)|uidichar))
+    
 The problem with these regular expressions is the fact that they do not interpret the language correctly. 
 
 ga*(lbana|rrufo|h?(alfa|anima)), for example, does not validate guidichar. It also implies that every word must begin with ga, which means words like ghafla would not be validated as correct, but words like gahalfa would. Also, words like gaalbana can be accepted because of the * symbol.
